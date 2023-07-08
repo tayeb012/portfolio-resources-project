@@ -121,7 +121,7 @@ main {
     margin: 100px auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -150,7 +150,12 @@ main section{
     font-weight: 800;
 }
 
+.A-summary-of-My-Resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
 .all-skils {
     display: flex;
@@ -174,4 +179,82 @@ main section{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.resume-colom-ttl {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 5rem;
+}
+
+.resume-container hr {
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.resume-item-ttl {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-info {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background: #FFF8F3;
+    padding: 130px 180px;
+}
+
+.footer-colom {
+    width: 50%;
+}
+
+
+
+.icones>ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+form>input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
 }
